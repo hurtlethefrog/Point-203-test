@@ -1,0 +1,124 @@
+.items-container {
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+  color: #414a75;
+  font-size: 3.8rem;
+  margin-left: 10rem;
+}
+
+.items-container {
+  flex-direction: column;
+}
+
+.item-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin-bottom: .5rem;
+}
+
+.item-wrapper div.item-info {
+  display: flex;
+  width:100%;
+  justify-content: space-between;
+}
+
+.item-wrapper img {
+  margin-top: 2rem;
+  max-width: 25%;
+}
+
+.center h3 {
+  color: #414a75;
+  margin-bottom: 2rem;
+}
+
+.color-swatch {
+  height:10px;
+}
+
+.swatch {
+  display: flex;
+  flex-direction: row;
+}
+
+.swatch div {
+  width:2rem;
+  height:2rem;
+  border-radius: 50%;
+  border: 1px solid lightgrey;
+  margin-left: .5rem;
+}
+
+.swatch p {
+  margin: auto;
+  font-weight: 600;
+  font-size: .85rem;
+}
+
+.right {
+  display: grid;
+  text-align: end;
+  align-content: space-between;
+}
+
+.right p.price {
+  font-weight: 600;
+}
+
+.right div{
+  display:flex;
+  margin-top: 3rem;
+  font-size: .85rem;
+}
+
+.right div p.lable{
+  margin-right: 1rem;
+  font-weight: 600;
+}
+
+.right div p.date{
+  color: #414a75;
+}
+
+.right button {
+  justify-self: flex-end;
+  width: fit-content;
+  margin-bottom: 3rem;
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: arial, sans-serif;
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* fees section */
+.fees-container {
+  width: 60%;
+  margin:auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fees-container div {
+  display: flex;
+  justify-content: space-between;
+  height: 2em;
+  font-weight: 600;
+}
+
+.total {
+  color: #414a75;
+}
+
+div.call-to-actions {
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  padding:4rem
+}
