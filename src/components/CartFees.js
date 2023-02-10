@@ -5,14 +5,19 @@ function calculateFees(cartItemsArray, shipping = 15) {
   let output = {
     subtotal: 0,
     tax: 0,
-    shipping,
+    shipping: 0
   }
+  let totalQuantity = 0;
 
   cartItemsArray.forEach((item)=>{
     output.subtotal += item.price * item.quantity
     output.tax += item.price * item.quantity * 0.13
+    totalQuantity += item.quantity
   })
 
+  if (totalQuantity > 0 ) {
+    return {...output, shipping}
+  }
   return output
 }
 
