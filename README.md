@@ -10,39 +10,40 @@ To start the express server
 
 
 1) What are some programming paradigms
-	The two big ones are Object Oriented and Functional. A few others are Parallel, Logic, Sequential, and Procedural. 
+- The two big ones are Object Oriented and Functional. A few others are Parallel, Logic, Sequential, and Procedural. 
 
 2) What’s JSX
-	JSX is how you write HTML in React.
+- JSX is how you write HTML in React.
 
 3) What’s a props
-	Props is short for properties, which in React is the set of arguments we pass to a component. They should be static and read-only.
+- Props is short for properties, which in React is the set of arguments we pass to a component. They should be static and read-only.
 
 4) What’s a state
-	State is the object intended to store information about the component. 
+- State is the object intended to store information about the component. 
 
 5) What are refs
-	Refs are React’s way of allowing you to reference a DOM element or component from inside the component while bypassing state, and by extension React’s rerender. 
+- Refs are React’s way of allowing you to reference a DOM element or component from inside the component while bypassing state, and by extension React’s rerender. 
 
 6) What’s redux / use context
-	Redux is a state store that is most often used to manage state across multiple layers of components without passing everything through props. It can also be used with all Javascript frameworks and libraries. 
+- Redux is a state store that is most often used to manage state across multiple layers of components without passing everything through props. It can also be used with all Javascript frameworks and libraries. 
 
 7) What’s node
-	Node is a Javascript runtime environment that allows JS to run outside of the browser, this allows you to write server side code with access to the filesystem, OS, etc.
+- Node is a Javascript runtime environment that allows JS to run outside of the browser, this allows you to write server side code with access to the filesystem, OS, etc.
 
 8) What is express js
-	Express is a Javascript framework used with Node to allow building a RESTful API.
+- Express is a Javascript framework used with Node to allow building a RESTful API.
 
 9) What’s a route
-	A route is the endpoint to call when you want to interact with an API.
+- A route is the endpoint to call when you want to interact with an API.
 
 10) What’s a middleware
-	Middleware is software that facilitates connectivity or communication between applications or programs. 
+- Middleware is software that facilitates connectivity or communication between applications or programs. 
 
 11) What’s unit testing
-	Unit testing is the most “micro” form of testing in which you test small pieces of code rather than the overall functionality of your application. 
+- Unit testing is the most “micro” form of testing in which you test small pieces of code rather than the overall functionality of your application. 
 
 12) Name some unit testing frameworks
-	Javascript: Jest, Mocha, Storybook, Selenium, Cypress
-	PHP: PHPunit, Cucumber
-	etc.
+
+Javascript: Jest, Mocha, Storybook, Selenium, Cypress
+PHP: PHPunit, Cucumber
+etc.
